@@ -1,6 +1,6 @@
 
-DataBaseDir = ['F:/data/test/'];
-%DataBaseDir = ['./'];
+%DataBaseDir = ['F:/data/test/'];
+DataBaseDir = ['./'];
 
 %leftDir = [DataBaseDir 'left/'];
 %rightDir = [DataBaseDir 'right/'];

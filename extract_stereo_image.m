@@ -1,12 +1,12 @@
 clear
 
-leftDir = ['./task-2/left/'];
-rightDir = ['./task-2/right/'];
-OutDir = ['./task-2/'];
+leftDir = ['./left/'];
+rightDir = ['./right/'];
+OutDir = ['./'];
 
 leftImgs = dir([leftDir '*.bmp']);
 rightImgs = dir([rightDir '*.bmp']);
-mkdir(OutDir);
+%mkdir(OutDir);
 
 isgray = 1;
 if(isgray)
